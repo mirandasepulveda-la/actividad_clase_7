@@ -1,1 +1,1 @@
-# intento.de.clase_7
+# actividad_clase_7
