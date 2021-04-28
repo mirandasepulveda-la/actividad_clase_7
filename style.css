@@ -4,7 +4,8 @@
     --fondo: #fdbfff;
     --figura: #78376c;
     --destacado: #4f344b;
-    --activo: #000a12;
+    --activo: #a8037a ;
+    --color: #cfae08 ;
 }
 
 body {
@@ -98,7 +99,7 @@ section {
 section div {
     width: 22%;
     margin: 1.5%;
-    background: #e8d1e0;
+    background: #feffd9;
 }
 
 @media screen and (orientation: portrait) {
