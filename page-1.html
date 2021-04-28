@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Diseño y nuevos medios, segunda versión remota">
         <link href="style.css" rel="stylesheet" />
-        <title>DNO037vR2 &#128211;</title>
+        <title>Mirinda &#9961;</title>
     </head>
     <body>
         <header>
@@ -23,14 +23,14 @@
             <canvas id="grafico" width="300" height="100"></canvas>
         </main>
         <footer>
-            <p>Nombre — Diseño y Nuevos Medios</p>
+            <p> <a href= "https://www.instagram.com/miristika.fragans/"> 💩 Miranda</a> Sepúlveda Sánchez — Diseño y Nuevos Medios</p>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
         <script>
             document.getElementsByTagName("a")[1].style.textDecorationLine = "underline";
 
-            $.getJSON("https://mindicador.cl/api/tasa_desempleo")
+            $.getJSON("https://mindicador.cl/api/bitcoin")
                 .then(function (consulta) {
                     console.log(consulta.serie);
                     let labels = [];
@@ -47,10 +47,10 @@
                             labels: labels,
                             datasets: [
                                 {
-                                    label: "Tasa de desempleo",
+                                    label: "bitcoin",
                                     data: data,
-                                    backgroundColor: "rgba(207, 216, 220, 0.6)",
-                                    borderColor: "rgba(107, 146, 157,1)",
+                                    backgroundColor: "rgba(200, 173, 201, 0.6)",
+                                    borderColor: "rgba(130, 90, 153,1)",
                                     borderWidth: 1,
                                 },
                             ],
